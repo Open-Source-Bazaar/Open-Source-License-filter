@@ -699,5 +699,3 @@ export const licenses: License[] = [
         }
     }
 ];
-
-
