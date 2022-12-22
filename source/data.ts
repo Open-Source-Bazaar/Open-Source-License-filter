@@ -615,7 +615,7 @@ export const licenses: License[] =[
     },
     {
       key: 'RPL1.5',
-      name: 'Reciprocal Public License FeatureAttitude.Positive.5',
+      name: 'Reciprocal Public License 1.5',
       link: 'https://spdx.org/licenses/RPL-1.5.html',
       feature: {
         popularity: FeatureAttitude.Negative,
