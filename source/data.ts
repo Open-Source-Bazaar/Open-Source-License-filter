@@ -2,7 +2,7 @@ import { FeatureAttitude, InfectionRange, License } from './type';
 
 export const licenses: License[] = [
     {
-        key: 'AFL 3.0',
+        key: 'AFL-3.0',
         name: 'Academic Free License 3.0',
         link: 'https://opensource.org/licenses/AFL-3.0',
         feature: {
@@ -70,7 +70,7 @@ export const licenses: License[] = [
         }
     },
     {
-        key: 'Artistic License 2.0',
+        key: 'Artistic-2.0',
         name: 'Artistic License 2.0',
         link: 'https://opensource.org/licenses/Artistic-2.0',
         feature: {
@@ -580,7 +580,7 @@ export const licenses: License[] = [
         }
     },
     {
-        key: 'OSL 3.0',
+        key: 'OSL-3.0',
         name: 'Open Software License 3.0',
         link: 'https://opensource.org/licenses/OSL-3.0',
         feature: {
@@ -614,7 +614,7 @@ export const licenses: License[] = [
         }
     },
     {
-        key: 'RPL1.5',
+        key: 'RPL-1.5',
         name: 'Reciprocal Public License 1.5',
         link: 'https://spdx.org/licenses/RPL-1.5.html',
         feature: {
