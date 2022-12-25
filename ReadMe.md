@@ -101,6 +101,24 @@ https://kaiyuanshe.cn/license-tool/
 
 https://github.com/luojiyin1987/license-tool
 
+## Reference
+
+### Standard data
+
+1. https://opensource.org/licenses
+2. https://spdx.org/licenses/
+3. https://tldrlegal.com/licenses/browse
+
+### Theoretical research
+
+https://mp.weixin.qq.com/s/ja_w-2NNSIKcO4vv7iN5vg
+
+### Open-source project
+
+1. https://github.com/ufal/public-license-selector/
+2. https://github.com/hernanmd/license-selector
+3. https://github.com/creativecommons/cc-license-chooser
+
 [1]: https://opensource.org/licenses
 [2]: https://www.typescriptlang.org/
 [3]: https://github.com/kaiyuanshe/Open-Source-License-filter/actions/workflows/main.yml
