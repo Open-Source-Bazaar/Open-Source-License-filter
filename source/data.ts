@@ -139,7 +139,7 @@ export const licenses: License[] = [
     },
     {
         key: 'CPAL',
-        name: 'Common Public Attribution LicenseFeatureAttitude.Positive.0',
+        name: 'Common Public Attribution License 1.0',
         link: 'https://opensource.org/licenses/CPAL-1.0',
         feature: {
             popularity: FeatureAttitude.Negative,
