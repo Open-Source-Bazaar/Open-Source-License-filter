@@ -2,7 +2,7 @@ import { FeatureAttitude, InfectionRange, License } from './type';
 
 export const licenses: License[] = [
     {
-        key: 'AFL 3.0',
+        key: 'AFL-3.0',
         name: 'Academic Free License 3.0',
         link: 'https://opensource.org/licenses/AFL-3.0',
         feature: {
