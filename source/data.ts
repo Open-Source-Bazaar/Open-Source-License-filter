@@ -2,7 +2,7 @@ import { FeatureAttitude, InfectionRange, License } from './type';
 
 export const licenses: License[] = [
     {
-        key: 'AFL-3.0',
+        key: 'AFL 3.0',
         name: 'Academic Free License 3.0',
         link: 'https://opensource.org/licenses/AFL-3.0',
         feature: {
@@ -10,11 +10,11 @@ export const licenses: License[] = [
             reuseCondition: FeatureAttitude.Negative,
             infectionIntensity: FeatureAttitude.Negative,
             infectionRange: InfectionRange.File,
-            jurisdiction: FeatureAttitude.Negative,
+            jurisdiction: FeatureAttitude.Undefined,
             patentStatement: FeatureAttitude.Positive,
             patentRetaliation: FeatureAttitude.Positive,
-            enhancedAttribution: FeatureAttitude.Negative,
-            privacyLoophole: FeatureAttitude.Negative,
+            enhancedAttribution: FeatureAttitude.Undefined,
+            privacyLoophole: FeatureAttitude.Undefined,
             marketingEndorsement: FeatureAttitude.Negative
         }
     },
@@ -27,11 +27,11 @@ export const licenses: License[] = [
             reuseCondition: FeatureAttitude.Positive,
             infectionIntensity: FeatureAttitude.Negative,
             infectionRange: InfectionRange.Module,
-            jurisdiction: FeatureAttitude.Negative,
-            patentStatement: FeatureAttitude.Negative,
-            patentRetaliation: FeatureAttitude.Negative,
+            jurisdiction: FeatureAttitude.Undefined,
+            patentStatement: FeatureAttitude.Undefined,
+            patentRetaliation: FeatureAttitude.Undefined,
             enhancedAttribution: FeatureAttitude.Positive,
-            privacyLoophole: FeatureAttitude.Negative,
+            privacyLoophole: FeatureAttitude.Undefined,
             marketingEndorsement: FeatureAttitude.Negative
         }
     },
@@ -44,7 +44,7 @@ export const licenses: License[] = [
             reuseCondition: FeatureAttitude.Positive,
             infectionIntensity: FeatureAttitude.Positive,
             infectionRange: InfectionRange.File,
-            jurisdiction: FeatureAttitude.Negative,
+            jurisdiction: FeatureAttitude.Undefined,
             patentStatement: FeatureAttitude.Positive,
             patentRetaliation: FeatureAttitude.Positive,
             enhancedAttribution: FeatureAttitude.Positive,
@@ -61,11 +61,11 @@ export const licenses: License[] = [
             reuseCondition: FeatureAttitude.Negative,
             infectionIntensity: FeatureAttitude.Negative,
             infectionRange: InfectionRange.File,
-            jurisdiction: FeatureAttitude.Negative,
+            jurisdiction: FeatureAttitude.Undefined,
             patentStatement: FeatureAttitude.Positive,
             patentRetaliation: FeatureAttitude.Positive,
-            enhancedAttribution: FeatureAttitude.Negative,
-            privacyLoophole: FeatureAttitude.Negative,
+            enhancedAttribution: FeatureAttitude.Undefined,
+            privacyLoophole: FeatureAttitude.Undefined,
             marketingEndorsement: FeatureAttitude.Negative
         }
     },
@@ -78,11 +78,11 @@ export const licenses: License[] = [
             reuseCondition: FeatureAttitude.Negative,
             infectionIntensity: FeatureAttitude.Negative,
             infectionRange: InfectionRange.File,
-            jurisdiction: FeatureAttitude.Negative,
+            jurisdiction: FeatureAttitude.Undefined,
             patentStatement: FeatureAttitude.Positive,
             patentRetaliation: FeatureAttitude.Positive,
-            enhancedAttribution: FeatureAttitude.Negative,
-            privacyLoophole: FeatureAttitude.Negative,
+            enhancedAttribution: FeatureAttitude.Undefined,
+            privacyLoophole: FeatureAttitude.Undefined,
             marketingEndorsement: FeatureAttitude.Negative
         }
     },
@@ -95,11 +95,11 @@ export const licenses: License[] = [
             reuseCondition: FeatureAttitude.Negative,
             infectionIntensity: FeatureAttitude.Negative,
             infectionRange: InfectionRange.File,
-            jurisdiction: FeatureAttitude.Negative,
-            patentStatement: FeatureAttitude.Negative,
-            patentRetaliation: FeatureAttitude.Negative,
+            jurisdiction: FeatureAttitude.Undefined,
+            patentStatement: FeatureAttitude.Undefined,
+            patentRetaliation: FeatureAttitude.Undefined,
             enhancedAttribution: FeatureAttitude.Positive,
-            privacyLoophole: FeatureAttitude.Negative,
+            privacyLoophole: FeatureAttitude.Undefined,
             marketingEndorsement: FeatureAttitude.Negative
         }
     },
@@ -112,11 +112,11 @@ export const licenses: License[] = [
             reuseCondition: FeatureAttitude.Negative,
             infectionIntensity: FeatureAttitude.Negative,
             infectionRange: InfectionRange.File,
-            jurisdiction: FeatureAttitude.Negative,
-            patentStatement: FeatureAttitude.Negative,
-            patentRetaliation: FeatureAttitude.Negative,
-            enhancedAttribution: FeatureAttitude.Negative,
-            privacyLoophole: FeatureAttitude.Negative,
+            jurisdiction: FeatureAttitude.Undefined,
+            patentStatement: FeatureAttitude.Undefined,
+            patentRetaliation: FeatureAttitude.Undefined,
+            enhancedAttribution: FeatureAttitude.Undefined,
+            privacyLoophole: FeatureAttitude.Undefined,
             marketingEndorsement: FeatureAttitude.Negative
         }
     },
@@ -129,17 +129,17 @@ export const licenses: License[] = [
             reuseCondition: FeatureAttitude.Positive,
             infectionIntensity: FeatureAttitude.Negative,
             infectionRange: InfectionRange.File,
-            jurisdiction: FeatureAttitude.Negative,
+            jurisdiction: FeatureAttitude.Undefined,
             patentStatement: FeatureAttitude.Positive,
             patentRetaliation: FeatureAttitude.Positive,
-            enhancedAttribution: FeatureAttitude.Negative,
-            privacyLoophole: FeatureAttitude.Negative,
+            enhancedAttribution: FeatureAttitude.Undefined,
+            privacyLoophole: FeatureAttitude.Undefined,
             marketingEndorsement: FeatureAttitude.Negative
         }
     },
     {
         key: 'CPAL',
-        name: 'Common Public Attribution License 1.0',
+        name: 'Common Public Attribution LicenseFeatureAttitude.Positive.0',
         link: 'https://opensource.org/licenses/CPAL-1.0',
         feature: {
             popularity: FeatureAttitude.Negative,
@@ -166,8 +166,8 @@ export const licenses: License[] = [
             jurisdiction: FeatureAttitude.Positive,
             patentStatement: FeatureAttitude.Positive,
             patentRetaliation: FeatureAttitude.Positive,
-            enhancedAttribution: FeatureAttitude.Negative,
-            privacyLoophole: FeatureAttitude.Negative,
+            enhancedAttribution: FeatureAttitude.Undefined,
+            privacyLoophole: FeatureAttitude.Undefined,
             marketingEndorsement: FeatureAttitude.Negative
         }
     },
@@ -183,8 +183,8 @@ export const licenses: License[] = [
             jurisdiction: FeatureAttitude.Positive,
             patentStatement: FeatureAttitude.Positive,
             patentRetaliation: FeatureAttitude.Positive,
-            enhancedAttribution: FeatureAttitude.Negative,
-            privacyLoophole: FeatureAttitude.Negative,
+            enhancedAttribution: FeatureAttitude.Undefined,
+            privacyLoophole: FeatureAttitude.Undefined,
             marketingEndorsement: FeatureAttitude.Negative
         }
     },
@@ -197,11 +197,11 @@ export const licenses: License[] = [
             reuseCondition: FeatureAttitude.Negative,
             infectionIntensity: FeatureAttitude.Negative,
             infectionRange: InfectionRange.File,
-            jurisdiction: FeatureAttitude.Negative,
-            patentStatement: FeatureAttitude.Negative,
+            jurisdiction: FeatureAttitude.Undefined,
+            patentStatement: FeatureAttitude.Undefined,
             patentRetaliation: FeatureAttitude.Positive,
-            enhancedAttribution: FeatureAttitude.Negative,
-            privacyLoophole: FeatureAttitude.Negative,
+            enhancedAttribution: FeatureAttitude.Undefined,
+            privacyLoophole: FeatureAttitude.Undefined,
             marketingEndorsement: FeatureAttitude.Negative
         }
     },
@@ -214,11 +214,11 @@ export const licenses: License[] = [
             reuseCondition: FeatureAttitude.Negative,
             infectionIntensity: FeatureAttitude.Negative,
             infectionRange: InfectionRange.File,
-            jurisdiction: FeatureAttitude.Negative,
-            patentStatement: FeatureAttitude.Negative,
-            patentRetaliation: FeatureAttitude.Negative,
-            enhancedAttribution: FeatureAttitude.Negative,
-            privacyLoophole: FeatureAttitude.Negative,
+            jurisdiction: FeatureAttitude.Undefined,
+            patentStatement: FeatureAttitude.Undefined,
+            patentRetaliation: FeatureAttitude.Undefined,
+            enhancedAttribution: FeatureAttitude.Undefined,
+            privacyLoophole: FeatureAttitude.Undefined,
             marketingEndorsement: FeatureAttitude.Negative
         }
     },
@@ -231,11 +231,11 @@ export const licenses: License[] = [
             reuseCondition: FeatureAttitude.Positive,
             infectionIntensity: FeatureAttitude.Positive,
             infectionRange: InfectionRange.File,
-            jurisdiction: FeatureAttitude.Negative,
+            jurisdiction: FeatureAttitude.Undefined,
             patentStatement: FeatureAttitude.Positive,
-            patentRetaliation: FeatureAttitude.Negative,
-            enhancedAttribution: FeatureAttitude.Negative,
-            privacyLoophole: FeatureAttitude.Negative,
+            patentRetaliation: FeatureAttitude.Undefined,
+            enhancedAttribution: FeatureAttitude.Undefined,
+            privacyLoophole: FeatureAttitude.Undefined,
             marketingEndorsement: FeatureAttitude.Negative
         }
     },
@@ -248,11 +248,11 @@ export const licenses: License[] = [
             reuseCondition: FeatureAttitude.Negative,
             infectionIntensity: FeatureAttitude.Negative,
             infectionRange: InfectionRange.File,
-            jurisdiction: FeatureAttitude.Negative,
-            patentStatement: FeatureAttitude.Negative,
-            patentRetaliation: FeatureAttitude.Negative,
-            enhancedAttribution: FeatureAttitude.Negative,
-            privacyLoophole: FeatureAttitude.Negative,
+            jurisdiction: FeatureAttitude.Undefined,
+            patentStatement: FeatureAttitude.Undefined,
+            patentRetaliation: FeatureAttitude.Undefined,
+            enhancedAttribution: FeatureAttitude.Undefined,
+            privacyLoophole: FeatureAttitude.Undefined,
             marketingEndorsement: FeatureAttitude.Negative
         }
     },
@@ -265,11 +265,11 @@ export const licenses: License[] = [
             reuseCondition: FeatureAttitude.Positive,
             infectionIntensity: FeatureAttitude.Positive,
             infectionRange: InfectionRange.File,
-            jurisdiction: FeatureAttitude.Negative,
-            patentStatement: FeatureAttitude.Negative,
-            patentRetaliation: FeatureAttitude.Negative,
-            enhancedAttribution: FeatureAttitude.Negative,
-            privacyLoophole: FeatureAttitude.Negative,
+            jurisdiction: FeatureAttitude.Undefined,
+            patentStatement: FeatureAttitude.Undefined,
+            patentRetaliation: FeatureAttitude.Undefined,
+            enhancedAttribution: FeatureAttitude.Undefined,
+            privacyLoophole: FeatureAttitude.Undefined,
             marketingEndorsement: FeatureAttitude.Negative
         }
     },
@@ -282,11 +282,11 @@ export const licenses: License[] = [
             reuseCondition: FeatureAttitude.Positive,
             infectionIntensity: FeatureAttitude.Positive,
             infectionRange: InfectionRange.File,
-            jurisdiction: FeatureAttitude.Negative,
+            jurisdiction: FeatureAttitude.Undefined,
             patentStatement: FeatureAttitude.Positive,
             patentRetaliation: FeatureAttitude.Positive,
-            enhancedAttribution: FeatureAttitude.Negative,
-            privacyLoophole: FeatureAttitude.Negative,
+            enhancedAttribution: FeatureAttitude.Undefined,
+            privacyLoophole: FeatureAttitude.Undefined,
             marketingEndorsement: FeatureAttitude.Negative
         }
     },
@@ -299,11 +299,11 @@ export const licenses: License[] = [
             reuseCondition: FeatureAttitude.Positive,
             infectionIntensity: FeatureAttitude.Negative,
             infectionRange: InfectionRange.Library,
-            jurisdiction: FeatureAttitude.Negative,
-            patentStatement: FeatureAttitude.Negative,
-            patentRetaliation: FeatureAttitude.Negative,
-            enhancedAttribution: FeatureAttitude.Negative,
-            privacyLoophole: FeatureAttitude.Negative,
+            jurisdiction: FeatureAttitude.Undefined,
+            patentStatement: FeatureAttitude.Undefined,
+            patentRetaliation: FeatureAttitude.Undefined,
+            enhancedAttribution: FeatureAttitude.Undefined,
+            privacyLoophole: FeatureAttitude.Undefined,
             marketingEndorsement: FeatureAttitude.Negative
         }
     },
@@ -316,11 +316,11 @@ export const licenses: License[] = [
             reuseCondition: FeatureAttitude.Positive,
             infectionIntensity: FeatureAttitude.Negative,
             infectionRange: InfectionRange.Library,
-            jurisdiction: FeatureAttitude.Negative,
+            jurisdiction: FeatureAttitude.Undefined,
             patentStatement: FeatureAttitude.Positive,
             patentRetaliation: FeatureAttitude.Positive,
-            enhancedAttribution: FeatureAttitude.Negative,
-            privacyLoophole: FeatureAttitude.Negative,
+            enhancedAttribution: FeatureAttitude.Undefined,
+            privacyLoophole: FeatureAttitude.Undefined,
             marketingEndorsement: FeatureAttitude.Negative
         }
     },
@@ -333,11 +333,11 @@ export const licenses: License[] = [
             reuseCondition: FeatureAttitude.Negative,
             infectionIntensity: FeatureAttitude.Negative,
             infectionRange: InfectionRange.File,
-            jurisdiction: FeatureAttitude.Negative,
-            patentStatement: FeatureAttitude.Negative,
-            patentRetaliation: FeatureAttitude.Negative,
-            enhancedAttribution: FeatureAttitude.Negative,
-            privacyLoophole: FeatureAttitude.Negative,
+            jurisdiction: FeatureAttitude.Undefined,
+            patentStatement: FeatureAttitude.Undefined,
+            patentRetaliation: FeatureAttitude.Undefined,
+            enhancedAttribution: FeatureAttitude.Undefined,
+            privacyLoophole: FeatureAttitude.Undefined,
             marketingEndorsement: FeatureAttitude.Negative
         }
     },
@@ -350,12 +350,12 @@ export const licenses: License[] = [
             reuseCondition: FeatureAttitude.Positive,
             infectionIntensity: FeatureAttitude.Positive,
             infectionRange: InfectionRange.File,
-            jurisdiction: FeatureAttitude.Negative,
-            patentStatement: FeatureAttitude.Negative,
-            patentRetaliation: FeatureAttitude.Negative,
-            enhancedAttribution: FeatureAttitude.Negative,
-            privacyLoophole: FeatureAttitude.Negative,
-            marketingEndorsement: FeatureAttitude.Positive
+            jurisdiction: FeatureAttitude.Undefined,
+            patentStatement: FeatureAttitude.Undefined,
+            patentRetaliation: FeatureAttitude.Undefined,
+            enhancedAttribution: FeatureAttitude.Undefined,
+            privacyLoophole: FeatureAttitude.Undefined,
+            marketingEndorsement: FeatureAttitude.Undefined
         }
     },
     {
@@ -367,11 +367,11 @@ export const licenses: License[] = [
             reuseCondition: FeatureAttitude.Negative,
             infectionIntensity: FeatureAttitude.Negative,
             infectionRange: InfectionRange.File,
-            jurisdiction: FeatureAttitude.Negative,
-            patentStatement: FeatureAttitude.Negative,
-            patentRetaliation: FeatureAttitude.Negative,
-            enhancedAttribution: FeatureAttitude.Negative,
-            privacyLoophole: FeatureAttitude.Negative,
+            jurisdiction: FeatureAttitude.Undefined,
+            patentStatement: FeatureAttitude.Undefined,
+            patentRetaliation: FeatureAttitude.Undefined,
+            enhancedAttribution: FeatureAttitude.Undefined,
+            privacyLoophole: FeatureAttitude.Undefined,
             marketingEndorsement: FeatureAttitude.Negative
         }
     },
@@ -387,8 +387,8 @@ export const licenses: License[] = [
             jurisdiction: FeatureAttitude.Positive,
             patentStatement: FeatureAttitude.Positive,
             patentRetaliation: FeatureAttitude.Positive,
-            enhancedAttribution: FeatureAttitude.Negative,
-            privacyLoophole: FeatureAttitude.Negative,
+            enhancedAttribution: FeatureAttitude.Undefined,
+            privacyLoophole: FeatureAttitude.Undefined,
             marketingEndorsement: FeatureAttitude.Negative
         }
     },
@@ -401,11 +401,11 @@ export const licenses: License[] = [
             reuseCondition: FeatureAttitude.Negative,
             infectionIntensity: FeatureAttitude.Negative,
             infectionRange: InfectionRange.File,
-            jurisdiction: FeatureAttitude.Negative,
+            jurisdiction: FeatureAttitude.Undefined,
             patentStatement: FeatureAttitude.Positive,
             patentRetaliation: FeatureAttitude.Positive,
-            enhancedAttribution: FeatureAttitude.Negative,
-            privacyLoophole: FeatureAttitude.Negative,
+            enhancedAttribution: FeatureAttitude.Undefined,
+            privacyLoophole: FeatureAttitude.Undefined,
             marketingEndorsement: FeatureAttitude.Negative
         }
     },
@@ -418,11 +418,11 @@ export const licenses: License[] = [
             reuseCondition: FeatureAttitude.Positive,
             infectionIntensity: FeatureAttitude.Negative,
             infectionRange: InfectionRange.Module,
-            jurisdiction: FeatureAttitude.Negative,
+            jurisdiction: FeatureAttitude.Undefined,
             patentStatement: FeatureAttitude.Positive,
             patentRetaliation: FeatureAttitude.Positive,
-            enhancedAttribution: FeatureAttitude.Negative,
-            privacyLoophole: FeatureAttitude.Negative,
+            enhancedAttribution: FeatureAttitude.Undefined,
+            privacyLoophole: FeatureAttitude.Undefined,
             marketingEndorsement: FeatureAttitude.Negative
         }
     },
@@ -435,12 +435,12 @@ export const licenses: License[] = [
             reuseCondition: FeatureAttitude.Positive,
             infectionIntensity: FeatureAttitude.Negative,
             infectionRange: InfectionRange.File,
-            jurisdiction: FeatureAttitude.Negative,
-            patentStatement: FeatureAttitude.Negative,
-            patentRetaliation: FeatureAttitude.Negative,
-            enhancedAttribution: FeatureAttitude.Negative,
-            privacyLoophole: FeatureAttitude.Negative,
-            marketingEndorsement: FeatureAttitude.Positive
+            jurisdiction: FeatureAttitude.Undefined,
+            patentStatement: FeatureAttitude.Undefined,
+            patentRetaliation: FeatureAttitude.Undefined,
+            enhancedAttribution: FeatureAttitude.Undefined,
+            privacyLoophole: FeatureAttitude.Undefined,
+            marketingEndorsement: FeatureAttitude.Undefined
         }
     },
     {
@@ -452,11 +452,11 @@ export const licenses: License[] = [
             reuseCondition: FeatureAttitude.Negative,
             infectionIntensity: FeatureAttitude.Negative,
             infectionRange: InfectionRange.File,
-            jurisdiction: FeatureAttitude.Negative,
-            patentStatement: FeatureAttitude.Negative,
-            patentRetaliation: FeatureAttitude.Negative,
-            enhancedAttribution: FeatureAttitude.Negative,
-            privacyLoophole: FeatureAttitude.Negative,
+            jurisdiction: FeatureAttitude.Undefined,
+            patentStatement: FeatureAttitude.Undefined,
+            patentRetaliation: FeatureAttitude.Undefined,
+            enhancedAttribution: FeatureAttitude.Undefined,
+            privacyLoophole: FeatureAttitude.Undefined,
             marketingEndorsement: FeatureAttitude.Negative
         }
     },
@@ -472,8 +472,8 @@ export const licenses: License[] = [
             jurisdiction: FeatureAttitude.Positive,
             patentStatement: FeatureAttitude.Positive,
             patentRetaliation: FeatureAttitude.Positive,
-            enhancedAttribution: FeatureAttitude.Negative,
-            privacyLoophole: FeatureAttitude.Negative,
+            enhancedAttribution: FeatureAttitude.Undefined,
+            privacyLoophole: FeatureAttitude.Undefined,
             marketingEndorsement: FeatureAttitude.Negative
         }
     },
@@ -486,12 +486,12 @@ export const licenses: License[] = [
             reuseCondition: FeatureAttitude.Positive,
             infectionIntensity: FeatureAttitude.Negative,
             infectionRange: InfectionRange.File,
-            jurisdiction: FeatureAttitude.Negative,
-            patentStatement: FeatureAttitude.Negative,
-            patentRetaliation: FeatureAttitude.Negative,
-            enhancedAttribution: FeatureAttitude.Negative,
-            privacyLoophole: FeatureAttitude.Negative,
-            marketingEndorsement: FeatureAttitude.Positive
+            jurisdiction: FeatureAttitude.Undefined,
+            patentStatement: FeatureAttitude.Undefined,
+            patentRetaliation: FeatureAttitude.Undefined,
+            enhancedAttribution: FeatureAttitude.Undefined,
+            privacyLoophole: FeatureAttitude.Undefined,
+            marketingEndorsement: FeatureAttitude.Undefined
         }
     },
     {
@@ -503,16 +503,16 @@ export const licenses: License[] = [
             reuseCondition: FeatureAttitude.Negative,
             infectionIntensity: FeatureAttitude.Negative,
             infectionRange: InfectionRange.File,
-            jurisdiction: FeatureAttitude.Negative,
-            patentStatement: FeatureAttitude.Negative,
-            patentRetaliation: FeatureAttitude.Negative,
-            enhancedAttribution: FeatureAttitude.Negative,
-            privacyLoophole: FeatureAttitude.Negative,
+            jurisdiction: FeatureAttitude.Undefined,
+            patentStatement: FeatureAttitude.Undefined,
+            patentRetaliation: FeatureAttitude.Undefined,
+            enhancedAttribution: FeatureAttitude.Undefined,
+            privacyLoophole: FeatureAttitude.Undefined,
             marketingEndorsement: FeatureAttitude.Negative
         }
     },
     {
-        key: 'NPOSL-3.0',
+        key: 'Non-Profit OSL 3.0',
         name: 'Non-Profit Open Software License 3.0',
         link: 'https://opensource.org/licenses/NPOSL-3.0',
         feature: {
@@ -520,16 +520,16 @@ export const licenses: License[] = [
             reuseCondition: FeatureAttitude.Positive,
             infectionIntensity: FeatureAttitude.Positive,
             infectionRange: InfectionRange.File,
-            jurisdiction: FeatureAttitude.Negative,
+            jurisdiction: FeatureAttitude.Undefined,
             patentStatement: FeatureAttitude.Positive,
             patentRetaliation: FeatureAttitude.Positive,
-            enhancedAttribution: FeatureAttitude.Negative,
-            privacyLoophole: FeatureAttitude.Negative,
+            enhancedAttribution: FeatureAttitude.Undefined,
+            privacyLoophole: FeatureAttitude.Undefined,
             marketingEndorsement: FeatureAttitude.Negative
         }
     },
     {
-        key: 'NTP',
+        key: 'NTP License',
         name: 'NTP License',
         link: 'https://opensource.org/licenses/NTP',
         feature: {
@@ -537,11 +537,11 @@ export const licenses: License[] = [
             reuseCondition: FeatureAttitude.Negative,
             infectionIntensity: FeatureAttitude.Negative,
             infectionRange: InfectionRange.File,
-            jurisdiction: FeatureAttitude.Negative,
-            patentStatement: FeatureAttitude.Negative,
-            patentRetaliation: FeatureAttitude.Negative,
-            enhancedAttribution: FeatureAttitude.Negative,
-            privacyLoophole: FeatureAttitude.Negative,
+            jurisdiction: FeatureAttitude.Undefined,
+            patentStatement: FeatureAttitude.Undefined,
+            patentRetaliation: FeatureAttitude.Undefined,
+            enhancedAttribution: FeatureAttitude.Undefined,
+            privacyLoophole: FeatureAttitude.Undefined,
             marketingEndorsement: FeatureAttitude.Negative
         }
     },
@@ -554,12 +554,12 @@ export const licenses: License[] = [
             reuseCondition: FeatureAttitude.Positive,
             infectionIntensity: FeatureAttitude.Negative,
             infectionRange: InfectionRange.File,
-            jurisdiction: FeatureAttitude.Negative,
-            patentStatement: FeatureAttitude.Negative,
-            patentRetaliation: FeatureAttitude.Negative,
-            enhancedAttribution: FeatureAttitude.Negative,
-            privacyLoophole: FeatureAttitude.Negative,
-            marketingEndorsement: FeatureAttitude.Positive
+            jurisdiction: FeatureAttitude.Undefined,
+            patentStatement: FeatureAttitude.Undefined,
+            patentRetaliation: FeatureAttitude.Undefined,
+            enhancedAttribution: FeatureAttitude.Undefined,
+            privacyLoophole: FeatureAttitude.Undefined,
+            marketingEndorsement: FeatureAttitude.Undefined
         }
     },
     {
@@ -571,12 +571,12 @@ export const licenses: License[] = [
             reuseCondition: FeatureAttitude.Positive,
             infectionIntensity: FeatureAttitude.Negative,
             infectionRange: InfectionRange.File,
-            jurisdiction: FeatureAttitude.Negative,
-            patentStatement: FeatureAttitude.Negative,
-            patentRetaliation: FeatureAttitude.Negative,
-            enhancedAttribution: FeatureAttitude.Negative,
-            privacyLoophole: FeatureAttitude.Negative,
-            marketingEndorsement: FeatureAttitude.Positive
+            jurisdiction: FeatureAttitude.Undefined,
+            patentStatement: FeatureAttitude.Undefined,
+            patentRetaliation: FeatureAttitude.Undefined,
+            enhancedAttribution: FeatureAttitude.Undefined,
+            privacyLoophole: FeatureAttitude.Undefined,
+            marketingEndorsement: FeatureAttitude.Undefined
         }
     },
     {
@@ -588,11 +588,11 @@ export const licenses: License[] = [
             reuseCondition: FeatureAttitude.Positive,
             infectionIntensity: FeatureAttitude.Positive,
             infectionRange: InfectionRange.File,
-            jurisdiction: FeatureAttitude.Negative,
+            jurisdiction: FeatureAttitude.Undefined,
             patentStatement: FeatureAttitude.Positive,
             patentRetaliation: FeatureAttitude.Positive,
-            enhancedAttribution: FeatureAttitude.Negative,
-            privacyLoophole: FeatureAttitude.Negative,
+            enhancedAttribution: FeatureAttitude.Undefined,
+            privacyLoophole: FeatureAttitude.Undefined,
             marketingEndorsement: FeatureAttitude.Negative
         }
     },
@@ -606,16 +606,16 @@ export const licenses: License[] = [
             infectionIntensity: FeatureAttitude.Negative,
             infectionRange: InfectionRange.File,
             jurisdiction: FeatureAttitude.Positive,
-            patentStatement: FeatureAttitude.Negative,
-            patentRetaliation: FeatureAttitude.Negative,
-            enhancedAttribution: FeatureAttitude.Negative,
-            privacyLoophole: FeatureAttitude.Negative,
+            patentStatement: FeatureAttitude.Undefined,
+            patentRetaliation: FeatureAttitude.Undefined,
+            enhancedAttribution: FeatureAttitude.Undefined,
+            privacyLoophole: FeatureAttitude.Undefined,
             marketingEndorsement: FeatureAttitude.Negative
         }
     },
     {
-        key: 'RPL-1.5',
-        name: 'Reciprocal Public License 1.5',
+        key: 'RPL1.5',
+        name: 'Reciprocal Public LicenseFeatureAttitude.Positive.5',
         link: 'https://spdx.org/licenses/RPL-1.5.html',
         feature: {
             popularity: FeatureAttitude.Negative,
@@ -639,11 +639,11 @@ export const licenses: License[] = [
             reuseCondition: FeatureAttitude.Positive,
             infectionIntensity: FeatureAttitude.Positive,
             infectionRange: InfectionRange.File,
-            jurisdiction: FeatureAttitude.Negative,
-            patentStatement: FeatureAttitude.Negative,
-            patentRetaliation: FeatureAttitude.Negative,
-            enhancedAttribution: FeatureAttitude.Negative,
-            privacyLoophole: FeatureAttitude.Negative,
+            jurisdiction: FeatureAttitude.Undefined,
+            patentStatement: FeatureAttitude.Undefined,
+            patentRetaliation: FeatureAttitude.Undefined,
+            enhancedAttribution: FeatureAttitude.Undefined,
+            privacyLoophole: FeatureAttitude.Undefined,
             marketingEndorsement: FeatureAttitude.Negative
         }
     },
@@ -656,11 +656,11 @@ export const licenses: License[] = [
             reuseCondition: FeatureAttitude.Negative,
             infectionIntensity: FeatureAttitude.Negative,
             infectionRange: InfectionRange.File,
-            jurisdiction: FeatureAttitude.Negative,
-            patentStatement: FeatureAttitude.Negative,
-            patentRetaliation: FeatureAttitude.Negative,
-            enhancedAttribution: FeatureAttitude.Negative,
-            privacyLoophole: FeatureAttitude.Negative,
+            jurisdiction: FeatureAttitude.Undefined,
+            patentStatement: FeatureAttitude.Undefined,
+            patentRetaliation: FeatureAttitude.Undefined,
+            enhancedAttribution: FeatureAttitude.Undefined,
+            privacyLoophole: FeatureAttitude.Undefined,
             marketingEndorsement: FeatureAttitude.Negative
         }
     },
@@ -673,12 +673,12 @@ export const licenses: License[] = [
             reuseCondition: FeatureAttitude.Positive,
             infectionIntensity: FeatureAttitude.Negative,
             infectionRange: InfectionRange.File,
-            jurisdiction: FeatureAttitude.Negative,
-            patentStatement: FeatureAttitude.Negative,
-            patentRetaliation: FeatureAttitude.Negative,
-            enhancedAttribution: FeatureAttitude.Negative,
-            privacyLoophole: FeatureAttitude.Negative,
-            marketingEndorsement: FeatureAttitude.Positive
+            jurisdiction: FeatureAttitude.Undefined,
+            patentStatement: FeatureAttitude.Undefined,
+            patentRetaliation: FeatureAttitude.Undefined,
+            enhancedAttribution: FeatureAttitude.Undefined,
+            privacyLoophole: FeatureAttitude.Undefined,
+            marketingEndorsement: FeatureAttitude.Undefined
         }
     },
     {
@@ -690,11 +690,11 @@ export const licenses: License[] = [
             reuseCondition: FeatureAttitude.Negative,
             infectionIntensity: FeatureAttitude.Negative,
             infectionRange: InfectionRange.File,
-            jurisdiction: FeatureAttitude.Negative,
-            patentStatement: FeatureAttitude.Negative,
-            patentRetaliation: FeatureAttitude.Negative,
-            enhancedAttribution: FeatureAttitude.Negative,
-            privacyLoophole: FeatureAttitude.Negative,
+            jurisdiction: FeatureAttitude.Undefined,
+            patentStatement: FeatureAttitude.Undefined,
+            patentRetaliation: FeatureAttitude.Undefined,
+            enhancedAttribution: FeatureAttitude.Undefined,
+            privacyLoophole: FeatureAttitude.Undefined,
             marketingEndorsement: FeatureAttitude.Negative
         }
     }
