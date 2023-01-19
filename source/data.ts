@@ -478,6 +478,40 @@ export const licenses: License[] = [
         }
     },
     {
+        key: 'MulanPSL-2.0',
+        name: 'Mulan Permissive Software License, Version 2',
+        link: 'https://opensource.org/licenses/MulanPSL-2.0',
+        feature: {
+            popularity: FeatureAttitude.Negative,
+            reuseCondition: FeatureAttitude.Negative,
+            infectionIntensity: FeatureAttitude.Negative,
+            infectionRange: InfectionRange.File,
+            jurisdiction: FeatureAttitude.Undefined,
+            patentStatement: FeatureAttitude.Positive,
+            patentRetaliation: FeatureAttitude.Positive,
+            enhancedAttribution: FeatureAttitude.Undefined,
+            privacyLoophole: FeatureAttitude.Undefined,
+            marketingEndorsement: FeatureAttitude.Negative
+        }
+    },
+    {
+        key: 'MulanPubL-2.0',
+        name: 'Mulan Public License, Version 2',
+        link: 'http://license.coscl.org.cn/MulanPubL-2.0',
+        feature: {
+            popularity: FeatureAttitude.Negative,
+            reuseCondition: FeatureAttitude.Positive,
+            infectionIntensity: FeatureAttitude.Positive,
+            infectionRange: InfectionRange.File,
+            jurisdiction: FeatureAttitude.Undefined,
+            patentStatement: FeatureAttitude.Positive,
+            patentRetaliation: FeatureAttitude.Positive,
+            enhancedAttribution: FeatureAttitude.Undefined,
+            privacyLoophole: FeatureAttitude.Undefined,
+            marketingEndorsement: FeatureAttitude.Negative
+        }
+    },
+    {
         key: 'NASA-1.3',
         name: 'NASA Open Source Agreement 1.3',
         link: 'https://opensource.org/licenses/NASA-1.3',
