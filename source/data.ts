@@ -507,7 +507,7 @@ export const licenses: License[] = [
             patentStatement: FeatureAttitude.Positive,
             patentRetaliation: FeatureAttitude.Positive,
             enhancedAttribution: FeatureAttitude.Undefined,
-            privacyLoophole: FeatureAttitude.Undefined,
+            privacyLoophole: FeatureAttitude.Positive,
             marketingEndorsement: FeatureAttitude.Negative
         }
     },
