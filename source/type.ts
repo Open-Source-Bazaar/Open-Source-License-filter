@@ -5,9 +5,9 @@ export enum FeatureAttitude {
 }
 
 export enum InfectionRange {
-    Library,
-    File,
-    Module
+    Library = 1,
+    File = 2,
+    Module = 3
 }
 
 export interface FeatureEvaluation
