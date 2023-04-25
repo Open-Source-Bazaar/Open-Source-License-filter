@@ -23,7 +23,7 @@ export interface FeatureEvaluation
         | 'marketingEndorsement',
         FeatureAttitude
     > {
-    infectionRange: InfectionRange;
+    infectionRange?: InfectionRange;
 }
 
 export interface License {
