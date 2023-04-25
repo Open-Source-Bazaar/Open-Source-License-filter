@@ -7,7 +7,7 @@ export const filterLicenses = (
 ) =>
     licenseList
         .map(license => {
-            const { infectionRange, ...feature } = license.feature;
+            const { infectionRange = 0, ...feature } = license.feature;
 
             const score =
                 Object.entries(feature).reduce(
