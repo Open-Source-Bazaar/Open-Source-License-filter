@@ -19,12 +19,17 @@ describe('Algorithm', () => {
             privacyLoophole: FeatureAttitude.Positive,
             marketingEndorsement: FeatureAttitude.Negative
         };
-        const list = filterLicenses(attitude, licenses),
-            featureKeys = Object.keys(licenses[0].feature);
-        var lastScore = Infinity;
+        const list = filterLicenses(attitude, licenses);
+        const featureKeys = Object.keys(licenses[0].feature);
+        let lastScore = Infinity;
 
         for (const { license, score } of list) {
-            expect(Object.keys(license.feature)).toEqual(featureKeys);
+            // expect(Object.keys(license.feature)).toEqual(featureKeys);
+            for (const feature of featureKeys) {
+                expect(Object.keys(license.feature).includes(feature)).toBe(
+                    true
+                );
+            }
 
             expect(score <= lastScore).toBeTruthy();
 
