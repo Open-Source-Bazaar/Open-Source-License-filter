@@ -20,7 +20,9 @@ describe('Algorithm', () => {
             marketingEndorsement: FeatureAttitude.Negative
         };
         const list = filterLicenses(attitude, licenses);
-        const featureKeys = Object.keys(licenses[0].feature);
+        const featureKeys = Object.keys(licenses[0].feature).filter(
+            key => key !== 'infectionRange'
+        );
         let lastScore = Infinity;
 
         for (const { license, score } of list) {
