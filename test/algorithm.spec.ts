@@ -24,12 +24,11 @@ describe('Algorithm', () => {
         let lastScore = Infinity;
 
         for (const { license, score } of list) {
-            // expect(Object.keys(license.feature)).toEqual(featureKeys);
-            for (const feature of featureKeys) {
-                expect(Object.keys(license.feature).includes(feature)).toBe(
-                    true
-                );
-            }
+            expect(
+                Object.keys(license.feature).filter(
+                    key => key !== 'infectionRange'
+                )
+            ).toEqual(featureKeys);
 
             expect(score <= lastScore).toBeTruthy();
 
