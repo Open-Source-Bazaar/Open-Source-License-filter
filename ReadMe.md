@@ -9,8 +9,8 @@
 
 ## Link
 
-- Design document: https://kaiyuanshe.feishu.cn/wiki/wikcnRn5pkE3BSvqFUMkJPymaG3
-- UI implement: https://oss-toolbox.kaiyuanshe.cn/license-filter
+- Design document: https://open-source-bazaar.feishu.cn/wiki/VbYWwRLa2ioMvTkvR0acvjagn7b
+- UI implement: https://bazaar.fcc-cd.dev/license-filter
 
 ## Usage
 
